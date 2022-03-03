@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4B97B2C227CF63DE00CBFECA /* MyApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B97B2C227CF63DE00CBFECA /* ImageChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B97B2C527CF63DE00CBFECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B97B2C727CF63DE00CBFECA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4B97B2C927CF63DE00CBFECA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		4B97B2CE27CF63DF00CBFECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B97B2D127CF63DF00CBFECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B97B2D327CF63DF00CBFECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B97B2D827CF63DF00CBFECA /* MyApp1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyApp1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B97B2D827CF63DF00CBFECA /* ImageChangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageChangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B97B2DC27CF63DF00CBFECA /* MyApp1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp1Tests.swift; sourceTree = "<group>"; };
-		4B97B2E227CF63DF00CBFECA /* MyApp1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyApp1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B97B2E227CF63DF00CBFECA /* ImageChangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageChangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B97B2E627CF63DF00CBFECA /* MyApp1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp1UITests.swift; sourceTree = "<group>"; };
 		4B97B2E827CF63DF00CBFECA /* MyApp1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp1UITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +89,9 @@
 		4B97B2C327CF63DE00CBFECA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B97B2C227CF63DE00CBFECA /* MyApp1.app */,
-				4B97B2D827CF63DF00CBFECA /* MyApp1Tests.xctest */,
-				4B97B2E227CF63DF00CBFECA /* MyApp1UITests.xctest */,
+				4B97B2C227CF63DE00CBFECA /* ImageChange.app */,
+				4B97B2D827CF63DF00CBFECA /* ImageChangeTests.xctest */,
+				4B97B2E227CF63DF00CBFECA /* ImageChangeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4B97B2C127CF63DE00CBFECA /* MyApp1 */ = {
+		4B97B2C127CF63DE00CBFECA /* ImageChange */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B97B2EC27CF63DF00CBFECA /* Build configuration list for PBXNativeTarget "MyApp1" */;
+			buildConfigurationList = 4B97B2EC27CF63DF00CBFECA /* Build configuration list for PBXNativeTarget "ImageChange" */;
 			buildPhases = (
 				4B97B2BE27CF63DE00CBFECA /* Sources */,
 				4B97B2BF27CF63DE00CBFECA /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = MyApp1;
+			name = ImageChange;
 			productName = MyApp1;
-			productReference = 4B97B2C227CF63DE00CBFECA /* MyApp1.app */;
+			productReference = 4B97B2C227CF63DE00CBFECA /* ImageChange.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4B97B2D727CF63DF00CBFECA /* MyApp1Tests */ = {
+		4B97B2D727CF63DF00CBFECA /* ImageChangeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B97B2EF27CF63DF00CBFECA /* Build configuration list for PBXNativeTarget "MyApp1Tests" */;
+			buildConfigurationList = 4B97B2EF27CF63DF00CBFECA /* Build configuration list for PBXNativeTarget "ImageChangeTests" */;
 			buildPhases = (
 				4B97B2D427CF63DF00CBFECA /* Sources */,
 				4B97B2D527CF63DF00CBFECA /* Frameworks */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				4B97B2DA27CF63DF00CBFECA /* PBXTargetDependency */,
 			);
-			name = MyApp1Tests;
+			name = ImageChangeTests;
 			productName = MyApp1Tests;
-			productReference = 4B97B2D827CF63DF00CBFECA /* MyApp1Tests.xctest */;
+			productReference = 4B97B2D827CF63DF00CBFECA /* ImageChangeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4B97B2E127CF63DF00CBFECA /* MyApp1UITests */ = {
+		4B97B2E127CF63DF00CBFECA /* ImageChangeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B97B2F227CF63DF00CBFECA /* Build configuration list for PBXNativeTarget "MyApp1UITests" */;
+			buildConfigurationList = 4B97B2F227CF63DF00CBFECA /* Build configuration list for PBXNativeTarget "ImageChangeUITests" */;
 			buildPhases = (
 				4B97B2DE27CF63DF00CBFECA /* Sources */,
 				4B97B2DF27CF63DF00CBFECA /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				4B97B2E427CF63DF00CBFECA /* PBXTargetDependency */,
 			);
-			name = MyApp1UITests;
+			name = ImageChangeUITests;
 			productName = MyApp1UITests;
-			productReference = 4B97B2E227CF63DF00CBFECA /* MyApp1UITests.xctest */;
+			productReference = 4B97B2E227CF63DF00CBFECA /* ImageChangeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4B97B2BD27CF63DE00CBFECA /* Build configuration list for PBXProject "MyApp1" */;
+			buildConfigurationList = 4B97B2BD27CF63DE00CBFECA /* Build configuration list for PBXProject "ImageChange" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B97B2C127CF63DE00CBFECA /* MyApp1 */,
-				4B97B2D727CF63DF00CBFECA /* MyApp1Tests */,
-				4B97B2E127CF63DF00CBFECA /* MyApp1UITests */,
+				4B97B2C127CF63DE00CBFECA /* ImageChange */,
+				4B97B2D727CF63DF00CBFECA /* ImageChangeTests */,
+				4B97B2E127CF63DF00CBFECA /* ImageChangeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		4B97B2DA27CF63DF00CBFECA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4B97B2C127CF63DE00CBFECA /* MyApp1 */;
+			target = 4B97B2C127CF63DE00CBFECA /* ImageChange */;
 			targetProxy = 4B97B2D927CF63DF00CBFECA /* PBXContainerItemProxy */;
 		};
 		4B97B2E427CF63DF00CBFECA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4B97B2C127CF63DE00CBFECA /* MyApp1 */;
+			target = 4B97B2C127CF63DE00CBFECA /* ImageChange */;
 			targetProxy = 4B97B2E327CF63DF00CBFECA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -501,7 +501,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyApp1.app/MyApp1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageChange.app/ImageChange";
 			};
 			name = Debug;
 		};
@@ -520,7 +520,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyApp1.app/MyApp1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageChange.app/ImageChange";
 			};
 			name = Release;
 		};
@@ -561,7 +561,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4B97B2BD27CF63DE00CBFECA /* Build configuration list for PBXProject "MyApp1" */ = {
+		4B97B2BD27CF63DE00CBFECA /* Build configuration list for PBXProject "ImageChange" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B97B2EA27CF63DF00CBFECA /* Debug */,
@@ -570,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B97B2EC27CF63DF00CBFECA /* Build configuration list for PBXNativeTarget "MyApp1" */ = {
+		4B97B2EC27CF63DF00CBFECA /* Build configuration list for PBXNativeTarget "ImageChange" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B97B2ED27CF63DF00CBFECA /* Debug */,
@@ -579,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B97B2EF27CF63DF00CBFECA /* Build configuration list for PBXNativeTarget "MyApp1Tests" */ = {
+		4B97B2EF27CF63DF00CBFECA /* Build configuration list for PBXNativeTarget "ImageChangeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B97B2F027CF63DF00CBFECA /* Debug */,
@@ -588,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B97B2F227CF63DF00CBFECA /* Build configuration list for PBXNativeTarget "MyApp1UITests" */ = {
+		4B97B2F227CF63DF00CBFECA /* Build configuration list for PBXNativeTarget "ImageChangeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B97B2F327CF63DF00CBFECA /* Debug */,
